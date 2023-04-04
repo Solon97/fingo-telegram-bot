@@ -1,0 +1,26 @@
+# flyctl launch added from .gitignore
+# Binaries for programs and plugins
+**/*.exe
+**/*.exe~
+**/*.dll
+**/*.so
+**/*.dylib
+
+# Test binary, built with `go test -c`
+**/*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+**/*.out
+
+# Dependency directories (remove the comment below to include it)
+**/vendor
+
+# flyctl launch added from vendor/github.com/go-telegram-bot-api/telegram-bot-api/v5/.gitignore
+vendor/github.com/go-telegram-bot-api/telegram-bot-api/v5/**/.idea
+vendor/github.com/go-telegram-bot-api/telegram-bot-api/v5/**/coverage.out
+vendor/github.com/go-telegram-bot-api/telegram-bot-api/v5/**/tmp
+vendor/github.com/go-telegram-bot-api/telegram-bot-api/v5/**/book
+
+# flyctl launch added from vendor/github.com/joho/godotenv/.gitignore
+vendor/github.com/joho/godotenv/**/.DS_Store
+fly.toml
