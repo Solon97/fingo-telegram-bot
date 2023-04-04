@@ -1,0 +1,23 @@
+settings:
+  legacy:
+    force: false
+    interval: 0s
+schema:
+- name: fingo-telegram-bot
+  path: .
+  commands:
+    install:
+      status: true
+      method: go install
+    run:
+      status: true
+  watcher:
+    extensions:
+    - go
+    - fmt
+    paths:
+    - .
+    ignored_paths:
+    - .git
+    - .realize
+    - vendor
